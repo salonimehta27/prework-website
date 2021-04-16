@@ -1,5 +1,21 @@
 body{
-    background: blue;
+background-color: #D57965;
     text-align: center;
     display: inline;
+}
+p#aboutme {
+background-color: #D57965;
+text-align: center;
+}
+div#header{
+background-color:#D57965;
+text-align: center;
+}
+div#contact{
+    display: inline;
+}
+a#home
+{
+    text-align: center;
+    color: darkolivegreen;
 }
