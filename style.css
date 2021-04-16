@@ -1,11 +1,19 @@
 body{
-background-color: #D57965;
+    background-color:#D57965;
     text-align: center;
     display: inline;
+}
+img#myworld{
+    width: 500px;
+    border-style: solid;
+    border-color: darkslategrey;
+
 }
 p#aboutme {
 background-color: #D57965;
 text-align: center;
+padding-left: 100px;
+padding-right:100px;
 }
 div#header{
 background-color:#D57965;
