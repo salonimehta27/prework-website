@@ -11,17 +11,18 @@ img#myworld{
     padding-left: 0px;
 }
 p#aboutme {
-background-color: #F1927C;
-text-align: center;
-padding-left: 100px;
-padding-right:100px;
+   background-color: #F1927C;
+   text-align: center;
+   padding-left: 100px;
+   padding-right:100px;
 }
 div#header{
-     background-color:#D57965; 
-text-align: center;
+   background-color:#D57965; 
+   text-align: center;
 }
 div#contact{
     display: inline;
+    text-align: center;
 }
 a#home
 {
@@ -40,12 +41,12 @@ div.container{
 ul.mainline{
     display:inline;
     padding-inline-start: 40px;
-list-style-type: none;
-line-height: 150px;
-float:right;
-font-family: Arial, Helvetica, sans-serif;
-color: cornflowerblue;
-padding-right: 40px;
+    list-style-type: none;
+    line-height: 150px;
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    padding-right: 40px;
 }
 html{
     margin-top: 0%;
@@ -68,10 +69,60 @@ a.homelink{
     
 }
 p#lifeofsaloni{
-    font-size: 30px;
-   font-family: Arial, Helvetica, sans-serif;
-   color:cornsilk;
-   text-align: center;
-
-
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornsilk;
+    text-align: center;
+    padding-left: 400px;
 }
+div.contact
+{
+    max: width 1000px;
+    margin:0px;
+    background-color: cadetblue;
+    height:120px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+div.contact, h1{
+    text-align: center;
+}
+ul.bottomline, a{
+    font-size: 20px;
+    margin-top: 2!important;
+    text-decoration: none;
+    text-align: center;
+    color: cornsilk;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+}
+table.mytable,tr,th{
+    border-color: darkcyan;
+    border-width: 10px;
+    tab-size: 800px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: -10px;
+    height: 500px; 
+    backface-visibility: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img.homepageimg
+  {
+      float: left;
+      padding-left: 0;
+      border-color: black;
+      border-style: solid;
+
+  }
