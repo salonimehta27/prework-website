@@ -33,7 +33,6 @@ a#home
 }
 
 div.container{
-    max: width 1000px;
     margin:0px;
     background-color: cadetblue;
     height:120px;
@@ -77,12 +76,13 @@ p#lifeofsaloni{
 }
 div.contact
 {
-    max: width 1000px;
     margin:0px;
     background-color: cadetblue;
     height:120px;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 !important; 
+    bottom: 0px; 
+    width: 100%;
 }
 div.contact, h1{
     text-align: center;
