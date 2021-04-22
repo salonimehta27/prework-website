@@ -84,9 +84,6 @@ div.contact
     margin:0px;
     background-color: cadetblue;
     height:120px;
-    margin: 0 !important;
-    padding: 0 !important; 
-    bottom: 0px; 
     width: 100%;
     position: relative;
 }
