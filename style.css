@@ -1,4 +1,4 @@
-html,body{
+body{
     background-color:#F1927C;
     text-align: center;
     display: inline;
@@ -8,8 +8,9 @@ html,body{
     height:100%
 }
 img#myworld{
-    width: 600px;
+    width: 500px;
     padding-left: 0px;
+    border: lightcyan;
 }
 p#aboutme {
    background-color: #F1927C;
@@ -35,8 +36,10 @@ a#home
 div.container{
     margin:0px;
     background-color: cadetblue;
-    height:120px;
+    height:100px;
     line-height: 150px;
+    margin:0 !important;
+    padding:0 !important;
 }
 ul.mainline{
     display:inline;
@@ -47,6 +50,7 @@ ul.mainline{
     font-family: Arial, Helvetica, sans-serif;
     color: cornflowerblue;
     padding-right: 40px;
+    margin:0 !important;
 }
 html{
     margin-top: 0%;
@@ -70,9 +74,9 @@ a.homelink{
 }
 p#lifeofsaloni{
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:cornsilk;
-    padding-left: 300px;
+    text-align: center;
 }
 div.contact
 {
@@ -132,4 +136,18 @@ table.mytable,tr,th{
       font-size: 50px;
       background-color: burlywood;
       color: darkcyan;
+  }
+  p.floatbottom2
+  {
+    font-family: cursive;
+    padding-top: 530px;
+    font-size: 50px;
+    background-color: rgb(218, 168, 104);
+    color: darkcyan;
+  }
+  h2{
+      color: cornsilk;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      padding-left: 400px;
   }
