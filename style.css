@@ -152,3 +152,4 @@ table.mytable,tr,th{
       text-align: center;
       padding-left: 400px;
   }
+  A:hover { COLOR:black; TEXT-DECORATION: none; font-weight: none }
